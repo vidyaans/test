@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Beranda - Partai Mahasiswa Bersatu (Pambers)</title>
+    <link rel="icon" href="assets/logo.png" sizes="32x32">
+    <!-- Bootstrap CSS & CSS Styling -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="beranda.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-gerindra fixed-top">
+        <div class="container-fluid">
+            <div class="logo">
+                <img src="assets/pambers.png" alt="Pambers Logo" width="154px" height="60px">
+            </div>
+            <button class="navbar-toggler" id="hamburger-button">
+                &#9776;
+            </button>
+            <div class="navigation">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html" style="text-decoration: underline;">Beranda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#1">Pambers</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="sejarah.html">Sejarah</a></li>
+                                <li><a class="dropdown-item" href="visimisi.html">Visi-Misi</a></li>
+                                <li><a class="dropdown-item" href="tugasfungsi.html">Tugas & Fungsi</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#3">Aktivitas</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="nasional.html">Liputan Nasional</a></li>
+                                <li><a class="dropdown-item" href="daerah.html">Liputan Daerah</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#4">Galeri</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="foto.html">Galeri Foto</a></li>
+                                <li><a class="dropdown-item" href="video.html">Galeri Video</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="kami.html">Tentang Kami</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Search -->
+                <form class="search d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn-search btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="carousel-container">
+            <div class="carousel">
+                <!-- Slide 1 -->
+                <div class="slide active">
+                    <img src="assets/panti.png" alt="Slide 1">
+                    <div class="hero-overlay"></div>
+                    <div class="slide-description">
+                        <h2><span>Pambers</span> Melakukan Kunjungan ke Panti Asuhan Mardhatillah</h2>
+                        <a href="#" class="btn scroll-to-news">Selengkapnya</a>
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="slide">
+                    <img src="assets/bersih.png" alt="Slide 2">
+                    <div class="hero-overlay"></div>
+                    <div class="slide-description">
+                        <h2><span>Bersih CFD</span> Bersama Dinas Lingkungan Hidup Kota Surakarta</h2>
+                        <a href="#" class="btn scroll-to-news">Selengkapnya</a>
+                    </div>
+                </div>
+                <!-- Slide 3 -->
+                <div class="slide">
+                    <img src="assets/rapat.png" alt="Slide 3">
+                    <div class="hero-overlay"></div>
+                    <div class="slide-description">
+                        <h2><span>Pambers</span> Melakukan Rapat Kerja Secara Terbuka</h2>
+                        <a href="#" class="btn scroll-to-news">Selengkapnya</a>
+                    </div>
+                </div>
+                <!-- Slide 4 -->
+                <div class="slide">
+                    <img src="assets/dana.png" alt="Slide 4">
+                    <div class="hero-overlay"></div>
+                    <div class="slide-description">
+                        <h2><span>Penggalangan Dana</span> untuk Panti Jompo di Car Free Day (CFD)</h2>
+                        <a href="#" class="btn scroll-to-news">Selengkapnya</a>
+                    </div>
+                </div>
+                <!-- Slide 5 -->
+                <div class="slide">
+                    <img src="assets/samwis.png" alt="Slide 5">
+                    <div class="hero-overlay"></div>
+                    <div class="slide-description">
+                        <h2><span>Sambut Wisuda</span> untuk Mahasiswa Universitas Sebelas Maret</h2>
+                        <a href="#" class="btn scroll-to-news">Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Navigation Dots -->
+            <div class="dots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+                <span class="dot" data-index="3"></span>
+                <span class="dot" data-index="4"></span>
+            </div>
+            <!-- Social Media Icons -->
+            <div class="hero-icons">
+                <a href="https://www.facebook.com" class="heros-icon">
+                    <img src="assets/facebook.svg" alt="Facebook">
+                </a>
+                <a href="https://www.twitter.com" class="heros-icon">
+                    <img src="assets/twitter-x.svg" alt="Twitter">
+                </a>
+                <a href="https://www.instagram.com" class="heros-icon">
+                    <img src="assets/instagram.svg" alt="Instagram">
+                </a>
+                <a href="https://www.youtube.com" class="heros-icon">
+                    <img src="assets/youtube.svg" alt="YouTube">
+                </a>
+            </div>
+        </section>
+
+        <!-- Tentang Section -->
+        <section id="1" class="tentang">
+            <div class="container about py-1">
+                <h1>Tentang Partai Mahasiswa Bersatu</h1>
+                <div class="row part align-items-center">
+                <div class="col-md-5 position-relative image-section">
+                    <img src="assets/kunjungan.png" alt="Kunjungan ke Panti Asuhan">
+                </div>
+                <div class="col-md-7">
+                    <p>Mahasiswa Satu Saling Membantu Mewujudkan Indonesia Maju.</p>
+                    <!-- Progress Item 1 -->
+                    <div class="mb-3">
+                    <p class="progress-label">Posko Bantuan Kesehatan</p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 0%" data-percentage="80">
+                        3678 Posko <span>80%</span>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- Progress Item 2 -->
+                    <div class="mb-3">
+                    <p class="progress-label">Relawan Partai</p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 0%" data-percentage="60">
+                        4400 Relawan <span>60%</span>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- Progress Item 3 -->
+                    <div class="mb-3">
+                    <p class="progress-label">Jumlah Suara Pemilih 2024</p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 0%" data-percentage="50">
+                        13050 Suara <span>50%</span>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tokoh Pambers Section -->
+        <section id="2" class="tokoh-pambers">
+            <h1>Tokoh Partai Mahasiswa Bersatu</h1>
+            <p class="subtitle">Mereka yang Semangat Menyatukan Mahasiswa untuk Mensejahterakan Indonesia</p>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <!-- Card 1 -->
+                    <div class="kotak1 col-md-5 mb-4">
+                        <div class="profil text-center">
+                            <div class="profil-img-container">
+                                <img src="assets/vidya.JPG" alt="Vidya Ayu Novita Sari">
+                            </div>
+                            <div class="profil-body">
+                                <h5 class="profil-title">Vidya Ayu Novita Sari</h5>
+                                <p class="profil-text position">Ketua Umum Partai Mahasiswa Bersatu</p>
+                                <p class="profil-text">"Kami selalu berkomitmen untuk mempersatukan mahasiswa."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="kotak2 col-md-5 mb-4">
+                        <div class="profil text-center">
+                            <div class="profil-img-container">
+                                <img src="assets/nizma.JPG" alt="Nizma Nabila Shafa Susilo">
+                            </div>
+                            <div class="profil-body">
+                                <h5 class="profil-title">Nizma Nabila Shafa S.</h5>
+                                <p class="profil-text position">Ketua Humas Partai Mahasiswa Bersatu</p>
+                                <p class="profil-text">"Kami selalu berkomitmen menjaga hubungan baik dengan semua."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section id="3" class="container news justify-content-center">
+            <h2 class="text-center">Liputan Kegiatan PAMBERS</h2>
+    
+            <!-- Navigation Selector -->
+            <div class="filter-news">
+                <ul>
+                    <li class="select active" data-filter="semua">Semua</li>
+                    <li class="select" data-filter="nasional">Liputan Nasional</li>
+                    <li class="select" data-filter="daerah">Liputan Daerah</li>
+                </ul>
+            </div>
+    
+            <!-- News Grid -->
+            <div class="row" id="news-container">
+                <!-- News Card 1 (Liputan Nasional) -->
+                <div class="col-md-4 mb-4 news-item filter nasional">
+                    <div class="card">
+                        <img src="assets/panti.png" class="card-img-top" alt="News Image">
+                        <a href="nasional.html" class="card-body">
+                            <span class="badge">Nasional</span>
+                            <h6>Partai Mahasiswa Bersatu | 2024-02-08</h6>
+                            <h5 class="card-title">Didampingi dengan Ketua Umum, Partai Mahasiswa Bersatu Melakukan Kunjungan ke Panti Asuhan Mardhatillah</h5>
+                        </a>
+                    </div>
+                </div>
+                <!-- News Card 2 (Liputan Daerah) -->
+                <div class="col-md-4 mb-4 news-item filter daerah">
+                    <div class="card">
+                        <img src="assets/bersih.png" class="card-img-top" alt="News Image">
+                        <a href="daerah.html" class="card-body">
+                            <span class="badge">Daerah</span>
+                            <h6>Partai Mahasiswa Bersatu | 2024-06-10</h6>
+                            <h5 class="card-title">Bersama Dinas Lingkungan Hidup Kota Surakarta, Partai Mahasiswa Bersatu Melakukan Bersih CFD</h5>
+                        </a>
+                    </div>
+                </div>
+                <!-- News Card 3 (Liputan Nasional) -->
+                <div class="col-md-4 mb-4 news-item filter nasional">
+                    <div class="card">
+                        <img src="assets/samwis.png" class="card-img-top" alt="News Image">
+                        <a href="nasional.html" class="card-body">
+                            <span class="badge">Nasional</span>
+                            <h6>Partai Mahasiswa Bersatu | 2024-04-18</h6>
+                            <h5 class="card-title">Partai Mahasiswa Bersatu Melakukan Sambut Wisuda Mahasiswa Universitas Sebelas Maret di Depan Gedung Rektorat</h5>
+                        </a>
+                    </div>
+                </div>
+                <!-- News Card 4 (Liputan Daerah) -->
+                <div class="col-md-4 mb-4 news-item filter daerah">
+                    <div class="card">
+                        <img src="assets/dana.png" class="card-img-top" alt="News Image">
+                        <a href="daerah.html" class="card-body">
+                            <span class="badge">Daerah</span>
+                            <h6>Partai Mahasiswa Bersatu | 2024-10-07</h6>
+                            <h5 class="card-title">Penggalangan Dana untuk Panti Jompo telah Dilakukan dalam Rangka Memperingati Hari Kemerdekaan Republik Indonesia</h5>
+                        </a>
+                    </div>
+                </div>
+                <!-- News Card 5 (Liputan Nasional) -->
+                <div class="col-md-4 mb-4 news-item filter nasional">
+                    <div class="card">
+                        <img src="assets/rapat.png" class="card-img-top" alt="News Image">
+                        <a href="nasional.html" class="card-body">
+                            <span class="badge">Nasional</span>
+                            <h6>Partai Mahasiswa Bersatu | 2024-09-18</h6>
+                            <h5 class="card-title">Ketua Umum Partai Mahasiswa Bersatu Melaksanakan Rapat Kerja Secara Terbuka dengan Masyarakat</h5>
+                        </a>
+                    </div>
+                </div>
+                <!-- News Card 6 (Liputan Daerah) -->
+                <div class="col-md-4 mb-4 news-item filter daerah">
+                    <div class="card">
+                        <img src="assets/surakarta.jpg" class="card-img-top" alt="News Image">
+                        <a href="daerah.html" class="card-body">
+                            <span class="badge">Daerah</span>
+                            <h6>Partai Mahasiswa Bersatu | 2024-08-27</h6>
+                            <h5 class="card-title">Pemerintah Daerah Surakarta Mengundang Ketua Umum PAMBERS dalam Meresmikan Gedung Baru</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SDGs Section -->
+        <section id="4" class="sdgs">
+            <div class="container">
+                <h2>Bersama Menuju Masa Depan Berkelanjutan</h2>
+                <p>Dengan inovasi dan kolaborasi, Partai Mahasiswa Bersatu berkontribusi dalam mendorong inovasi dan keberlanjutan, demi lingkungan yang lebih baik dan masa depan yang lebih cerah.</p>
+                <div class="sdgs-grid">
+                    <div class="sdg-item">
+                        <img src="assets/1.png" alt="SDG 1">
+                        <p>No Poverty</p>
+                    </div>
+                    <div class="sdg-item">
+                        <img src="assets/2.png" alt="SDG 2">
+                        <p>Zero Hunger</p>
+                    </div>
+                    <div class="sdg-item">
+                        <img src="assets/3.png" alt="SDG 3">
+                        <p>Good Health and Well-being</p>
+                    </div>
+                    <div class="sdg-item">
+                        <img src="assets/4.png" alt="SDG 4">
+                        <p>Quality Education</p>
+                    </div>
+                    <div class="sdg-item">
+                        <img src="assets/5.png" alt="SDG 5">
+                        <p>Gender Equality</p>
+                    </div>
+                    <div class="sdg-item">
+                        <img src="assets/6.png" alt="SDG 6">
+                        <p>Clean Water and Sanitation</p>
+                    </div>
+                    <div class="sdg-item">
+                        <img src="assets/7.png" alt="SDG 7">
+                        <p>Affordable and Clean Energy</p>
+                    </div>
+                    <div class="sdg-item">
+                        <img src="assets/8.png" alt="SDG 8">
+                        <p>Decent Work and Economic Growth</p>
+                    </div>
+                    <div class="sdg-item">
+                        <img src="assets/9.png" alt="SDG 9">
+                        <p>Industry, Innovation, and Infrastructure</p>
+                    </div>
+                    <div class="sdg-item">
+                        <img src="assets/10.png" alt="SDG 10">
+                        <p>Reduced Inequalities</p>
+                    </div>
+                    <div class="sdg-item">
+                        <img src="assets/11.png" alt="SDG 11">
+                        <p>Sustainable Cities and Communities</p>
+                    </div>
+                    <div class="sdg-item">
+                        <img src="assets/12.png" alt="SDG 12">
+                        <p>Responsible Consumption and Production</p>
+                    </div>
+                    <div class="sdg-item">
+                        <img src="assets/13.png" alt="SDG 13">
+                        <p>Climate Action</p>
+                    </div>
+                    <div class="sdg-item">
+                        <img src="assets/14.png" alt="SDG 14">
+                        <p>Life Below Water</p>
+                    </div>
+                    <div class="sdg-item">
+                        <img src="assets/15.png" alt="SDG 15">
+                        <p>Life on Land</p>
+                    </div>
+                    <div class="sdg-item">
+                        <img src="assets/16.png" alt="SDG 16">
+                        <p>Peace, Justice, and Strong Institutions</p>
+                    </div>
+                    <div class="sdg-item">
+                        <img src="assets/17.png" alt="SDG 17">
+                        <p>Partnerships for the Goals</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Koleksi Section -->
+        <section id="5" class="collection">
+            <div class="container collect">
+                <h1>Koleksi Konten YouTube</span></h1>
+                <p>Sebagai wujud komitmen untuk terus membantu, mendukung, dan mempersatukan mahasiswa untuk mensejahterakan Indonesia.</p>
+                <div class="event-slider">
+                    <button class="nav prev">
+                        <i class="bi bi-arrow-left"></i>
+                    </button>
+                    <div class="event-slider-wrapper">
+                        <div class="event-slider-items">
+                            <div class="box">
+                                <iframe width="187" height="105" src="https://www.youtube.com/embed/W8CNwSoXqe4?si=odbnmYaDEoYfIFF5" alt="Event 1" title="YouTube Video Player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <h3>26 Juni 2024</h3>
+                                <p>Pambers Memberikan Materi Rutin Mengenai Load Balancing Nth</p>
+                            </div>
+                            <div class="box">
+                                <iframe width="187" height="105" src="https://www.youtube.com/embed/SRRWX2g4cY0?si=rBG2zaKm12p8dFJz" alt="Event 2" title="YouTube Video Player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <h3>17 November 2024</h3>
+                                <p>Pengabdian Menggunakan Model Pembelajaran SAVI</p>
+                            </div>
+                            <div class="box">
+                                <iframe width="187" height="105" src="https://www.youtube.com/embed/sqXiG1Us1I0?si=vVECIeT5bPz7YL0W" alt="Event 3" title="YouTube Video Player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <h3>06 Februari 2022</h3>
+                                <p>Ketua Umum Pambers Melakukan Kampanye Anti Rokok</p>
+                            </div>
+                            <div class="box">
+                                <iframe width="187" height="105" src="https://www.youtube.com/embed/M7IoM7e7iZ0?si=HTLL0kaYb9x1lLwq" alt="Event 4" title="YouTube Video Player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <h3>26 Juni 2024</h3>
+                                <p>Pambers Memberikan Materi Rutin Mengenai Load Balancing ECMP</p>
+                            </div>
+                            <div class="box">
+                                <iframe width="187" height="105" src="https://www.youtube.com/embed/aTkAzEG6enI?si=vzTFdVSIPmmkZatW" alt="Event 5" title="YouTube Video Player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <h3>29 Februari 2024</h3>
+                                <p>Pambers Memberikan Materi Rutin Mengenai Cara Reset MikroTik</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="nav next">
+                        <i class="bi bi-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>         
+    </main>
+
+    <!-- Footer -->
+    <footer class="container-fluid footer">
+        <div class="footer-content">
+            <!-- Footer Logo Section -->
+            <div class="footer-section footer-logo">
+                <img src="assets/pambers.png" alt="Pambers Logo">
+                <p>"Bersatu Membangun Negeri, Bersama Mahasiswa Peduli!"</p>
+                <p><a href="https://maps.app.goo.gl/SHyct2oNe7eML12M6">Jl. Jend. Ahmad Yani 200A Pabelan, Kartasura, Sukoharjo, Jawa Tengah, Indonesia, 57100</a></p>
+                <p><a href="index.html">WA: (+62) 812 3456 7890</a></p>
+                <p><a href="mailto:pambers.humas@gmail.com">pambers.humas@gmail.com</a></p>
+            </div>
+            <div class="footer-list">
+                <h3>Tentang Pambers</h3>
+                <ul>
+                    <li><a href="sejarah.html">Sejarah</a></li>
+                    <li><a href="visimisi.html">Visi-Misi</a></li>
+                    <li><a href="tugasfungsi.html">Tugas & Fungsi</a></li>
+                </ul>
+            </div>
+            <div class="footer-list">
+                <h3>Informasi Terkini</h3>
+                <ul>
+                    <li><a href="nasional.html">Liputan Nasional</a></li>
+                    <li><a href="daerah.html">Liputan Daerah</a></li>
+                    <li><a href="foto.html">Galeri Foto</a></li>
+                    <li><a href="video.html">Galeri Video</a></li>
+                </ul>
+            </div>
+            <!-- Kontak Section -->
+            <div class="kontak">
+                <div class="container">
+                    <h2 class="text-center mb-4">Mari Bergabung</h2>
+                    <div class="row justify-content-center">
+                        <div class="col-md-12">
+                            <form id="kontakForm">
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" placeholder="Nama Anda" required>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" placeholder="Email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <textarea class="form-control" rows="5" placeholder="Pesan Anda" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Sosial Media Section -->
+        <div class="footer-social">
+            <h3>Media Sosial PAMBERS</h3>
+            <div class="social-icons">
+                <a href="https://www.youtube.com" aria-label="YouTube">
+                    <img src="assets/youtube.svg" alt="YouTube">
+                </a>
+                <a href="https://x.com" aria-label="Twitter">
+                    <img src="assets/twitter-x.svg" alt="Twitter">
+                </a>
+                <a href="https://www.facebook.com" aria-label="Facebook">
+                    <img src="assets/facebook.svg" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com" aria-label="Instagram">
+                    <img src="assets/instagram.svg" alt="Instagram">
+                </a>
+                <a href="https://www.linkedin.com" aria-label="LinkedIn">
+                    <img src="assets/linkedin.svg" alt="LinkedIn">
+                </a>
+            </div>
+        </div>
+        <!-- Copyright Section -->
+        <div class="copyright">
+            <p>Copyright &copy; Partai Mahasiswa Bersatu (PAMBERS). All Rights Reserved.</p>
+            <p>by. Vidya Ayu Novita Sari (K3523074) & Nizma Nabila Shafa Susilo (K3523058)</p>
+            <P>Pendidikan Teknik Informatika dan Komputer - Universitas Sebelas Maret</P>
+        </div>
+    </footer>    
+
+    <!-- Bootstrap JS, JS Styling, and jQuery -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script> 
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="beranda.js"></script>
+</body>
+</html>

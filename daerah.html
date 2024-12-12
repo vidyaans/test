@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liputan Daerah - Partai Mahasiswa Bersatu (Pambers)</title>
+    <link rel="icon" href="assets/logo.png" sizes="32x32">
+    <!-- Bootstrap CSS & CSS Styling -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="daerah.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-gerindra fixed-top">
+        <div class="container-fluid">
+            <div class="logo">
+                <img src="assets/pambers.png" alt="Pambers Logo" width="154px" height="60px">
+            </div>
+            <button class="navbar-toggler" id="hamburger-button">
+                &#9776;
+            </button>
+            <div class="navigation">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Beranda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pambers</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="sejarah.html">Sejarah</a></li>
+                                <li><a class="dropdown-item" href="visimisi.html">Visi-Misi</a></li>
+                                <li><a class="dropdown-item" href="tugasfungsi.html">Tugas & Fungsi</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="text-decoration: underline;">Aktivitas</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="nasional.html">Liputan Nasional</a></li>
+                                <li><a class="dropdown-item" href="daerah.html" style="background-color: #6B9071; color: #0F2A1D; text-decoration: underline;">Liputan Daerah</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Galeri</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="foto.html">Galeri Foto</a></li>
+                                <li><a class="dropdown-item" href="video.html">Galeri Video</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="kami.html">Tentang Kami</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Search -->
+                <form class="search d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn-search btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Intro Section -->
+        <section class="container-fluid judul">
+            <header class="text-center">
+                <h1 class="text">Liputan Daerah Pambers</h1>
+                <p class="text">Di sini, kami mendekatkan diri dengan berbagai aktivitas, program, dan pergerakan mahasiswa di setiap pelosok nusantara. Dengan semangat lokal yang menginspirasi, kami mengangkat cerita-cerita dari daerah untuk menunjukkan kekuatan mahasiswa sebagai agen perubahan di komunitasnya.
+                    Ikuti berita terkini dari cabang-cabang daerah, inisiatif lokal, serta perjuangan nyata mahasiswa untuk membangun lingkungan yang lebih baik. Bersama, kita perkuat langkah menuju masa depan yang lebih cerah, dimulai dari daerah masing-masing!</p>
+            </header>
+        </section>
+    
+        <!-- Berita Utama -->
+        <section class="container-fluid">
+            <div class="utama">
+                <div class="row berita-utama">
+                    <div class="col-md-4">
+                        <img src="assets/bukber.jpg" alt="Berita Utama" class="img-fluid rounded featured-image">
+                    </div>
+                    <div class="col-md-8">
+                        <p class="text-muted">Partai Mahasiswa Bersatu | 15 Maret 2024</p>
+                        <h2 class="text-dark featured-title">Partai Mahasiswa Bersatu Melakukan Buka Bersama dengan Pemerintah Kota Surakarta</h2>
+                        <p class="text-muted">Partai Mahasiswa Bersatu menggelar acara buka bersama dengan Pemerintah Kota Surakarta untuk mempererat hubungan dan membahas kolaborasi strategis. Acara ini dihadiri oleh tokoh-tokoh penting daerah dan perwakilan mahasiswa.</p>
+                        <a href="#" class="btn more">Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Berita Daerah -->
+        <section class="container-fluid daerah">
+            <!-- News Grid -->
+            <div class="row" id="news-container">
+                <!-- News Card 1 -->
+                <div class="col-md-4 mb-4 news-item">
+                    <div class="card">
+                        <img src="assets/bersih.png" class="card-img-top" alt="News Image">
+                        <a href="daerah.html" class="card-body">
+                            <span class="badge">Daerah</span>
+                            <h6>Partai Mahasiswa Bersatu | 2024-06-10</h6>
+                            <h5 class="card-title">Bersama Dinas Lingkungan Hidup Kota Surakarta, Partai Mahasiswa Bersatu Melakukan Bersih CFD</h5>
+                        </a>
+                    </div>
+                </div>
+                <!-- News Card 2 -->
+                <div class="col-md-4 mb-4 news-item">
+                    <div class="card">
+                        <img src="assets/dana.png" class="card-img-top" alt="News Image">
+                        <a href="daerah.html" class="card-body">
+                            <span class="badge">Daerah</span>
+                            <h6>Partai Mahasiswa Bersatu | 2024-10-07</h6>
+                            <h5 class="card-title">Penggalangan Dana untuk Panti Jompo telah Dilakukan dalam Rangka Memperingati Hari Kemerdekaan Republik Indonesia</h5>
+                        </a>
+                    </div>
+                </div>
+                <!-- News Card 3 -->
+                <div class="col-md-4 mb-4 news-item">
+                    <div class="card">
+                        <img src="assets/surakarta.jpg" class="card-img-top" alt="News Image">
+                        <a href="daerah.html" class="card-body">
+                            <span class="badge">Daerah</span>
+                            <h6>Partai Mahasiswa Bersatu | 2024-08-27</h6>
+                            <h5 class="card-title">Pemerintah Daerah Surakarta Mengundang Ketua Umum PAMBERS dalam Meresmikan Gedung Baru</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="container-fluid footer">
+        <div class="footer-content">
+            <!-- Footer Logo Section -->
+            <div class="footer-section footer-logo">
+                <img src="assets/pambers.png" alt="Pambers Logo">
+                <p>"Bersatu Membangun Negeri, Bersama Mahasiswa Peduli!"</p>
+                <p><a href="https://maps.app.goo.gl/SHyct2oNe7eML12M6">Jl. Jend. Ahmad Yani 200A Pabelan, Kartasura, Sukoharjo, Jawa Tengah, Indonesia, 57100</a></p>
+                <p><a href="index.html">WA: (+62) 812 3456 7890</a></p>
+                <p><a href="mailto:pambers.humas@gmail.com">pambers.humas@gmail.com</a></p>
+            </div>
+            <div class="footer-list">
+                <h3>Tentang Pambers</h3>
+                <ul>
+                    <li><a href="sejarah.html">Sejarah</a></li>
+                    <li><a href="visimisi.html">Visi-Misi</a></li>
+                    <li><a href="tugasfungsi.html">Tugas & Fungsi</a></li>
+                </ul>
+            </div>
+            <div class="footer-list">
+                <h3>Informasi Terkini</h3>
+                <ul>
+                    <li><a href="nasional.html">Liputan Nasional</a></li>
+                    <li><a href="daerah.html">Liputan Daerah</a></li>
+                    <li><a href="foto.html">Galeri Foto</a></li>
+                    <li><a href="video.html">Galeri Video</a></li>
+                </ul>
+            </div>
+            <!-- Kontak Section -->
+            <div class="kontak">
+                <div class="container">
+                    <h2 class="text-center mb-4">Mari Bergabung</h2>
+                    <div class="row justify-content-center">
+                        <div class="col-md-12">
+                            <form id="kontakForm">
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" placeholder="Nama Anda" required>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" placeholder="Email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <textarea class="form-control" rows="5" placeholder="Pesan Anda" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Sosial Media Section -->
+        <div class="footer-social">
+            <h3>Media Sosial PAMBERS</h3>
+            <div class="social-icons">
+                <a href="https://www.youtube.com" aria-label="YouTube">
+                    <img src="assets/youtube.svg" alt="YouTube">
+                </a>
+                <a href="https://x.com" aria-label="Twitter">
+                    <img src="assets/twitter-x.svg" alt="Twitter">
+                </a>
+                <a href="https://www.facebook.com" aria-label="Facebook">
+                    <img src="assets/facebook.svg" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com" aria-label="Instagram">
+                    <img src="assets/instagram.svg" alt="Instagram">
+                </a>
+                <a href="https://www.linkedin.com" aria-label="LinkedIn">
+                    <img src="assets/linkedin.svg" alt="LinkedIn">
+                </a>
+            </div>
+        </div>
+        <!-- Copyright Section -->
+        <div class="copyright">
+            <p>Copyright &copy; Partai Mahasiswa Bersatu (PAMBERS). All Rights Reserved</p>
+            <p>by. Vidya Ayu Novita Sari (K3523074) & Nizma Nabila Shafa Susilo (K3523058)</p>
+            <P>Pendidikan Teknik Informatika dan Komputer - Universitas Sebelas Maret</P>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS, JS Styling, and jQuery -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script> 
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
